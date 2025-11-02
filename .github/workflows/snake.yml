@@ -20,7 +20,7 @@ jobs:
       - name: Generate Snake animation
         uses: Platane/snk@v3
         with:
-          github_user_name: <your_username>
+          github_user_name: FNXDOOM
           outputs: dist/snake.svg
 
       - name: Push snake animation to output branch
