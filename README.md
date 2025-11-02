@@ -20,3 +20,6 @@
 <p>&nbsp;<img align="center" src="https://github-readme-stats.vercel.app/api?username=fnxdoom&show_icons=true&locale=en" alt="fnxdoom" /></p>
 
 <p><img align="center" src="https://github-readme-streak-stats.herokuapp.com/?user=fnxdoom&" alt="fnxdoom" /></p>
+
+
+![snake gif](https://raw.githubusercontent.com/FNXDOOM/FNXDOOM/output/snake.svg)
