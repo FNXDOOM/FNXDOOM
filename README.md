@@ -22,4 +22,6 @@
 <p><img align="center" src="https://github-readme-streak-stats.herokuapp.com/?user=fnxdoom&" alt="fnxdoom" /></p>
 
 
-![snake gif](https://raw.githubusercontent.com/FNXDOOM/FNXDOOM/output/snake.svg)
+![GitHub Snake Light](https://raw.githubusercontent.com/FNXDOOM/FNXDOOM/output/github-snake.svg#gh-light-mode-only)
+![GitHub Snake Dark](https://raw.githubusercontent.com/FNXDOOM/FNXDOOM/output/github-snake-dark.svg#gh-dark-mode-only)
+
