@@ -1,28 +1,33 @@
 name: Generate Snake
 
 on:
-  schedule: # run automatically every 24 hours
+  schedule: # Runs automatically every 24 hours
     - cron: "0 0 * * *"
-  workflow_dispatch: # allow manual trigger
+  workflow_dispatch: # Allows you to run it manually
   push:
     branches:
       - main
 
 jobs:
   build:
-    name: Generate Snake Game
+    name: Generate Snake Animation
     runs-on: ubuntu-latest
 
     steps:
+      # 1️⃣ Checkout the repository
       - name: Checkout repository
         uses: actions/checkout@v3
 
+      # 2️⃣ Generate the Snake animations
       - name: Generate Snake animation
         uses: Platane/snk@v3
         with:
-          github_user_name: FNXDOOM
-          outputs: dist/snake.svg
+          github_user_name: ${{ github.repository_owner }}
+          outputs: |
+            dist/github-snake.svg
+            dist/github-snake-dark.svg?palette=github-dark
 
+      # 3️⃣ Push the generated files to the "output" branch
       - name: Push snake animation to output branch
         uses: crazy-max/ghaction-github-pages@v3.1.0
         with:
